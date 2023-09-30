@@ -1,7 +1,9 @@
 #write a program to find common letter from two string.
 #string 1st = NAINA
 #string 2nd =REENA
-#step first remove  duplicates
+#steps:
+#1>Remove Duplicate elements by using set
+#2>extract common value form those unique elements.
 def Find_Common_Letter():
     str1=input('Enter First String : ')
     str2=input('Enter Second String: ')
